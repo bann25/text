@@ -1,0 +1,81 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Буквоежка - Главная</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            width: 390px;
+            height: 844px;
+            margin: 0 auto;
+            background-color: white;
+            position: relative;
+            overflow-y: auto;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #2c3e50;
+        }
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px 20px;
+        }
+        .btn {
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            background-color: #3498db;
+            border: none;
+        }
+        .btn-secondary {
+            background-color: #95a5a6;
+        }
+        .btn-admin {
+            background-color: #e74c3c;
+        }
+        .description {
+            padding: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Буквоежка</h1>
+            <p>Обмен книгами между читателями</p>
+        </header>
+        
+        <div class="nav-buttons">
+            <a href="login.html" class="btn">Войти</a>
+            <a href="register.html" class="btn btn-secondary">Зарегистрироваться</a>
+            <a href="admin.html" class="btn btn-admin">Панель администратора</a>
+        </div>
+        
+        <div class="description">
+            <p>Портал для обмена книгами. Находите новые книги и делитесь теми, что уже прочитали.</p>
+        </div>
+    </div>
+</body>
+</html>
