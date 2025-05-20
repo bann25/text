@@ -1,0 +1,45 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Буквоежка - Главная</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Буквоежка</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/auth" id="auth-link">Войти</a></li>
+                    <li><a href="/register" id="register-link">Регистрация</a></li>
+                    <li><a href="/cards" id="cards-link" style="display:none">Мои карточки</a></li>
+                    <li><a href="/create-card" id="create-card-link" style="display:none">Создать карточку</a></li>
+                    <li><a href="/admin" id="admin-link" style="display:none">Админпанель</a></li>
+                    <li><a href="/logout" id="logout-link" style="display:none">Выйти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Обмен книгами с другими читателями</h2>
+            <p>Находите новые книги и делитесь своими с другими любителями чтения</p>
+            <div class="buttons">
+                <a href="/register" class="btn">Зарегистрироваться</a>
+                <a href="/auth" class="btn btn-outline">Войти</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Буквоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

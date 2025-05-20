@@ -1,0 +1,44 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Буквоежка - Админпанель</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Буквоежка - Админпанель</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/logout">Выйти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="admin-panel">
+            <h2>Карточки на модерации</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="pending">На рассмотрении</button>
+                <button class="tab-btn" data-tab="approved">Одобренные</button>
+                <button class="tab-btn" data-tab="rejected">Отклоненные</button>
+            </div>
+            
+            <div id="adminCardsContainer">
+                <!-- Карточки будут загружены через JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Буквоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
